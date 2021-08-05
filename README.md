@@ -8,4 +8,4 @@ In this project we will be building an AI Trainer using OpenCV and Python. We wi
 
 I decided to use Computer Vision to Track my joints. Using caclulations , i was able to find the number of repetitions for number of Push-up , Squat , etc. 
 
-
+![](https://github.com/Yega-Noragami/AI-TRAINER/blob/main/videos/images/Result.png)
