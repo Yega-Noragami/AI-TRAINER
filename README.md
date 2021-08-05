@@ -10,5 +10,5 @@ I decided to use Computer Vision to Track my joints. Using caclulations , i was 
 
 SQUAT                      |  PUSH-UP
 :-------------------------:|:-------------------------:
-![](https://github.com/Yega-Noragami/AI-TRAINER/blob/main/videos/images/Squat.png)|  ![]((https://github.com/Yega-Noragami/AI-TRAINER/blob/main/videos/images/Result.png))
+![](https://github.com/Yega-Noragami/AI-TRAINER/blob/main/videos/images/Squat.png)|  ![](https://github.com/Yega-Noragami/AI-TRAINER/blob/main/videos/images/Result.png)
 
