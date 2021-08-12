@@ -8,6 +8,10 @@ Basic idea of the project
 
 
 use test image for angles , later use video for counting 
+
+You can use high and low to set the angle for high and low for the different exercises. This can be used later on for checking the quality of workout 
+
+
 '''
 
 
@@ -141,13 +145,17 @@ def track_squat(cap , detector):
 
 def main():
 
-    # SELECT Video source 
+    # SELECT Video source here 
+
+    
     # #pushup
     # cap = cv2.VideoCapture("videos/pushup.mp4")
-    # cap = cv2.VideoCapture(0)
+    
+    # Camera Module 
+    cap = cv2.VideoCapture(0)
 
     #squat
-    cap = cv2.VideoCapture("videos/squat.mp4")
+    # cap = cv2.VideoCapture("videos/squat.mp4")
     
     
     
@@ -158,8 +166,10 @@ def main():
     # track_push(cap , detector) 
 
     # Count squat's
-    track_squat(cap , detector)
+    # track_squat(cap , detector)
 
+    # # Count Pushup's 
+    track_push(cap , detector)
     
 
 
